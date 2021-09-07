@@ -13,7 +13,7 @@ class OtraPagina extends StatefulWidget {
 }
 
 class _OtraPaginaState extends State<OtraPagina> {
-    final controlador = Get.put(MiControlador());
+    final MiControlador controlador = Get.find();
 
   
   @override
